@@ -1,0 +1,74 @@
+body{
+    overflow: scroll;
+}
+
+.d-flex button{
+    margin: 1.5em 0.6em;
+    padding: 0.5em 2.4em;
+}
+
+#productAddHeader hr{
+    border-top: 4px solid black;
+
+}
+
+#productListHeader hr{
+    border-top: 4px solid black;
+}
+
+.btn-default{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.listSelect{
+    float: right;
+}
+
+#product_type_id{
+    background-color: #5cb85c;
+    color: white;
+    padding: 16px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    margin: 30px 30px 30px 30px;
+    border-radius: 5px;
+}
+
+#product_type_id:focus{
+    outline: none;
+}
+
+#product_type_id:hover{
+    cursor: pointer;
+}
+
+#product_type_id option{
+    background-color: slategrey;
+}
+
+#product_list_id{
+    background-color: #d9534f;
+    color: white;
+    padding: 13px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+#product_list_id:focus{
+    outline: none;
+}
+
+#product_list_id:hover{
+    cursor: pointer;
+}
+
+#product_list_id option{
+    background-color: slategray;
+}
+
+#listbox{
+    text-align: center;
+}
+
